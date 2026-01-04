@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB Connection String - IMPORTANT: Replace YOUR_PASSWORD with actual password
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sandeep05kumar1997_db_user:YOUR_PASSWORD@pps.grrdy3k.mongodb.net/complaintDB?retryWrites=true&w=majority&appName=pps';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sandeep05kumar1997_db_user:DbXbLWP19@pps.grrdy3k.mongodb.net/complaintDB?retryWrites=true&w=majority&appName=pps';
 
 // MongoDB Connection with caching for serverless
 let cachedDb = null;
